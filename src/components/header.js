@@ -1,11 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from "../images/logo.svg"
+import logo from "../images/laptop-logo.png"
 import styled from "styled-components"
 
 const HeaderWrapper = styled.header`
-  background: #524763;
+  background: #464866;
   img {
     margin-bottom: 0;
   }
@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
             textDecoration: `none`,
           }}
         >
-          <img style={{width: '100px' }} src={logo} alt="Level Up Tuts" />
+          <img style={{width: '50px' }} src={logo} alt="Level Up Tuts" />
         </Link>
       </h1>
     </HeaderContainer>
