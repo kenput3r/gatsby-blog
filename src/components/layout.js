@@ -34,10 +34,10 @@ const Layout = ({ children, location }) => {
         }
       }
       file(relativePath: {
-        regex: "/bg/"
+        regex: "/macbook-pro/"
       }) {
         childImageSharp {
-          fluid(maxWidth: 1000) {
+          fluid(maxWidth: 2048) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -45,7 +45,7 @@ const Layout = ({ children, location }) => {
     }
   `)
   const spring = useSpring({
-    height: location.pathname === '/' ? 300 : 100, 
+    height: location.pathname === '/' ? 600 : 100, 
     from: {height: location.pathname === '/' ? 100 : 200}
   });
   return (
