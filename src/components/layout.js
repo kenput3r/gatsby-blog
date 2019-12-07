@@ -14,6 +14,7 @@ import Archive from "./archive"
 import "./layout.css"
 import styled from "styled-components"
 import Img from "gatsby-image"
+import kenput3r from "../images/kenput3r-dark.png"
 import { useSpring, animated } from "react-spring"
 
 const MainLayout = styled.main`
@@ -58,10 +59,8 @@ const Layout = ({ children, location }) => {
         <div>{children}</div>
         <Archive />
         </MainLayout>
-      <footer>
-        © {new Date().getFullYear()}, Built with
-        {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>
+      <footer style={{color: `#464866`, textAlign:`center`, marginBottom: `10px`}}>
+        © {new Date().getFullYear()} <img src={kenput3r} alt="kenput3r" style={{height: `16px`, marginBottom: 0, verticalAlign: `text-bottom`}} />
       </footer>
     </>
   )

@@ -4,6 +4,7 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
+  background-color: rgba(170, 171, 184, 0.14901960784313725);
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -614,6 +615,15 @@ pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+a {
+  color: #2E9CCA;
+}
+h1,h2,h3,h4,h5 {
+  font-family: Raleway, sans-serif;
+}
+footer {
+  font-family: Raleway, sans-serif;
 }
 @media only screen and (max-width: 480px) {
   html {

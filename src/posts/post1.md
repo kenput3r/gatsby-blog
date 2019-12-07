@@ -1,9 +1,9 @@
 ---
-slug: "/first-post"
+slug: "/super-fast-tech"
 date: "2019-11-30"
-title: "My First Post"
+title: "Fast in every way that matters"
 ---
 
-# Hello
+Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps. Enjoy the power of the latest web technologies – React.js , Webpack , modern JavaScript and CSS and more — all set up and waiting for you to start building.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus, facere minima perspiciatis, voluptate ducimus incidunt delectus nam architecto, sit aperiam omnis laborum nulla? Modi architecto mollitia expedita enim veritatis!
+Gatsby’s rich data plugin ecosystem lets you build sites with the data you want — from one or many sources: Pull data from headless CMSs, SaaS services, APIs, databases, your file system, and more directly into your pages using GraphQL.

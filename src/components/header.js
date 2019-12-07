@@ -24,11 +24,12 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: `#AAABB8`,
             textDecoration: `none`,
+            fontWeight: `200`
           }}
         >
-          <img style={{width: '50px' }} src={logo} alt="Level Up Tuts" />
+          <img style={{height: '50px', verticalAlign: 'text-bottom'}} src={logo} alt="Laptop icon with a k on the screen" /> Gatsby Blog
         </Link>
       </h1>
     </HeaderContainer>

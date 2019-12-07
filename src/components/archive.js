@@ -1,6 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql, Link } from "gatsby"
 import styled from "styled-components"
+import Image from "./image"
 
 const ArchiveList = styled.ul`
   padding: 0;
@@ -40,6 +41,9 @@ const Archive = () => {
             </li>
           ))}
         </ArchiveList>
+        <div style={{ maxWidth: `200px`, marginBottom: `1.45rem` }}>
+          <Image />
+        </div>
       </aside>
     </>
   )
